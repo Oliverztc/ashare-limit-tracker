@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ashare-limit-tracker
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
